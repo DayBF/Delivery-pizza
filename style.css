@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+ /* header */
+
+.cabecera-pizza {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.cabecera-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecera-logo img {
+    height: 120px;
+}
+
+.cabecera-logo h1 {
+    font-size: 40px;
+}
+
+.font-pizza {
+    color: rgb(15, 156, 15);
+}
+
+.font-front {
+    color: red;
+}
+
+.menu-cabecera {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 23px;
+}
+
+/* main */
+
+.promo-menu {
+    background-color: #E5E5E5; 
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    padding: 40px 20px;
+    gap: 8px;
+}
+
+.cuerpo-menu {
+    flex: 1 1 auto;
+}
+
+.promo-delivery {
+    width: 100%;
+}
+
+.h2-envio {
+    position: absolute;
+    top: 225px;
+    color: red;
+    font-size: 2vw;
+    left: 100px;
+}
+
+.h2-podio {
+    color: red;
+    font-size: 60px;
+}
+
+.podio-subtitulo {
+    width: 100%;
+}
+
+.podio-productos {
+    display: flex;
+    font-size: 30px; 
+    width: 100%;   
+    justify-content: space-between;
+}
+
+.podio-productos li {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.podio-productos img {
+    width: 180px;
+    height: auto;
+}
+
+.comprando {
+    color: white;
+}
+
+.podio {
+    display: flex;
+    padding: 50px;
+    /* box-sizing: 500px; */
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+    gap: 40px;
+}
+
+.podio h3 {
+    font-size: 45px;
+}
+
+/* footer */
+
+.pie-pagina {
+    display: flex;
+    color: white;
+    background-color: #222222;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.pie-pagina li {
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    height: 120px;
+}
+
+.footer-logo h3 {
+    font-size: 30px;
+}
